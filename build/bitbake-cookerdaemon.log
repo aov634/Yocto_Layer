@@ -1,0 +1,56 @@
+187975 14:41:54.895948 --- Starting bitbake server pid 187975 at 2025-05-29 14:41:54.895914 ---
+187975 14:41:54.897228 Started bitbake server pid 187975
+187975 14:41:54.897468 Entering server connection loop
+187975 14:41:54.897506 Lockfile is: /home/aov634/yocto/build/bitbake.lock
+Socket is /home/aov634/yocto/build/bitbake.sock (True)
+187975 14:41:54.898330 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+187975 14:41:54.899260 Processing Client
+187975 14:41:54.899324 Connecting Client
+187975 14:41:54.899661 Running command ['setFeatures', [2, 1]]
+187975 14:41:54.899789 Command Completed (socket: True)
+187975 14:41:54.900572 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PWD': '/home/aov634/yocto/build', 'LOGNAME': 'aov634', 'HOME': '/home/aov634', 'BBPATH': '/home/aov634/yocto/build', 'USER': 'aov634', 'PATH': '/home/aov634/yocto/poky/scripts:/home/aov634/yocto/poky/bitbake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aov634/Downloads/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/aov634-MINI-S:@/tmp/.ICE-unix/948,unix/aov634-MINI-S:/tmp/.ICE-unix/948', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SYSTEMD_EXEC_PID': '948', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XTC862', 'USERNAME': 'aov634', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VTE_VERSION': '6800', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a1f8ad1d_96c1_4ba8_b183_3b4d551af90b', 'GNOME_SETUP_DISPLAY': ':1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/aov634/yocto/poky/bitbake/lib:', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GNOME_TERMINAL_SERVICE': ':1.108', 'DISPLAY': ':0', 'SHLVL': '1', 'QT_IM_MODULE': 'ibus', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9343b6632554a5c644d1414568371447', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'GDMSESSION': 'ubuntu', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9343b6632554a5c644d1414568371447', 'BUILDDIR': '/home/aov634/yocto/build', 'OLDPWD': '/home/aov634/yocto', '_': '/home/aov634/yocto/poky/bitbake/bin/bitbake-layers'}, ['/home/aov634/yocto/poky/bitbake/bin/bitbake-layers', 'create-layer', '../meta-mycustom']]
+187975 14:41:55.598752 Command Completed (socket: True)
+187975 14:41:55.599016 Running command ['parseConfiguration']
+187975 14:41:55.600300 Command Completed (socket: True)
+187975 14:41:55.600541 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBMULTICONFIG',), {}]
+187975 14:41:55.600799 Command Completed (socket: True)
+187975 14:41:55.600972 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+187975 14:41:55.601164 Command Completed (socket: True)
+187975 14:41:55.613892 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+187975 14:41:55.614254 Command Completed (socket: True)
+187975 14:41:55.614394 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+187975 14:41:55.614618 Command Completed (socket: True)
+187975 14:41:55.615845 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+187975 14:41:55.616068 Command Completed (socket: True)
+187975 14:41:55.616171 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+187975 14:41:55.616342 Command Completed (socket: True)
+187975 14:41:55.618272 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+187975 14:41:55.618638 Command Completed (socket: True)
+187975 14:41:55.618891 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+187975 14:41:55.619193 Command Completed (socket: True)
+187975 14:41:55.620724 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+187975 14:41:55.621119 Command Completed (socket: True)
+187975 14:41:55.621369 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+187975 14:41:55.621652 Command Completed (socket: True)
+187975 14:41:55.622399 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+187975 14:41:55.622703 Command Completed (socket: True)
+187975 14:41:55.622852 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+187975 14:41:55.623094 Command Completed (socket: True)
+187975 14:41:55.623896 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBPATH',), {}]
+187975 14:41:55.624196 Command Completed (socket: True)
+187975 14:41:55.626292 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('BBLAYERS',), {}]
+187975 14:41:55.626594 Command Completed (socket: True)
+187975 14:41:55.626736 Running command ['dataStoreConnectorVarHistCmd', 0, 'get_variable_items_files', ('BBFILE_COLLECTIONS',), {}]
+187975 14:41:55.626983 Command Completed (socket: True)
+187975 14:41:55.630858 Running command ['dataStoreConnectorCmd', 0, 'getVar', ('LAYERSERIES_CORENAMES',), {}]
+187975 14:41:55.631348 Command Completed (socket: True)
+187975 14:41:55.632376 Running command ['clientComplete']
+187975 14:41:55.632479 Registering idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x731ab18f5810>>
+187975 14:41:55.632551 Command Completed (socket: True)
+187975 14:41:55.717401 Removing idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x731ab18f5810>>
+187975 14:41:55.717560 Processing Client
+187975 14:41:55.717647 Disconnecting Client (socket: True)
+187975 14:41:55.717854 No timeout, exiting.
+187975 14:41:55.818093 Exiting (socket: True)
+187975 14:41:55.821273 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/aov634/yocto/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
