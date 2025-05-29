@@ -1,1 +1,13 @@
-wpa_supplicant.conf
+# Ignore Yocto build tmp folder (usually large and regenerated)
+build/tmp/
+
+# Ignore common temporary files
+*.swp
+*.bak
+*.tmp
+
+# Ignore Wi-Fi password file (replace with your actual filename)
+meta-mycustom/recipes-core/wpa_supplicant.config
+
+# Ignore local environment setup scripts or configs if any
+local.conf
