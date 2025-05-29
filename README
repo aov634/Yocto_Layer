@@ -1,0 +1,13 @@
+## Handling Sensitive or Local-Config Files
+
+Some configuration files, like `wpa_supplicant.config`, contain sensitive or machine-specific information (e.g., WiFi passwords). We want to:
+
+- Include an initial version in the repository (so everyone has a template or starting point).
+- Prevent accidental commits of local changes to these files (to avoid exposing secrets or overwriting personal settings).
+
+### How to Ignore Local Changes to a Tracked File
+
+After cloning the repository, run the following command to tell Git to ignore future local changes to the file:
+
+```bash
+git update-index --assume-unchanged meta-mycustom/recipes-core/wpa_supplicant.config
